@@ -1,0 +1,111 @@
+*{
+    font-family:"Roboto Mono";
+    font-size: 10px;
+    text-align:center;
+}
+h1{
+    font-family: "Chelsea Market";
+    font-size: 16px;
+
+}
+header{
+    margin-top: 30px;
+}
+
+header nav a {
+    color:white;
+    background-color: #5ED3EB;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin: 10px 5%;
+    text-align: center;
+    text-decoration: none;
+}
+.container {
+    width: 750px;
+    margin:10px auto;
+}
+
+.bg-bej{
+    background-color: #DDB9A3;
+    color: white;
+
+}
+
+
+header nav {
+    margin:0 auto;
+    width: 70vw;
+}
+
+
+header nav a:last-child {
+    background-color: #FFCD69;
+    margin-right:0;
+    margin-left:20%;
+}
+
+
+header nav a:first-child{
+    background-color: #FF764E;
+    margin-left:0;
+    margin-right: 20%;
+
+}
+
+.image-ortalama{
+    width: 45%;
+    display: inline-block;
+}
+.image-ortalama img{
+    width:45%;
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+section{
+margin-top: 50px;
+}
+
+.ortabolum p{
+    width: 30%;
+    margin: auto auto;
+}
+
+.ortabolum img{
+    width: 25%;
+}
+
+footer img{
+    width:750px;
+    height:100px;
+    margin:auto;
+}
+
+footer nav a {
+    color:white;
+    background-color: #5ED3EB;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin: 10px 5%;
+    text-align: center;
+    text-decoration: none;
+    margin-bottom:15px;
+}
+footer nav a:last-child {
+    background-color: #FFCD69;
+    margin-right:0;
+    margin-left:20%;
+}
+
+footer nav a:first-child{
+    background-color: #FF764E;
+    margin-left:0;
+    margin-right: 20%;
+}
+
+footer{
+    background-color: #F9E7DC;
+    margin-bottom:0;
+}
