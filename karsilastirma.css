@@ -1,0 +1,73 @@
+body{
+    background-image: url("/assets/karsilastirma.jpg");
+    color:white;
+    font-weight: 600;
+    margin: auto 10vw;
+    text-align: center;
+    background-repeat:no-repeat;
+    font-family: Arial, Helvetica, sans-serif;
+line-height: 22px;
+
+}
+
+header{
+    margin: 30px auto 80px auto;
+}
+
+nav {
+    margin:0 auto;
+    width: 80vw;
+}
+
+nav a {
+    color:white;
+    background-color: #2c2c20;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin: 10px 2%;
+    text-align: center;
+    text-decoration: none;
+    border-color: #2c2c20;
+    border-style: dashed;
+}
+
+nav a:hover{
+    background-color: white;
+    font-weight: bold;
+    color:#2c2c20;
+    border-color: #2c2c20;
+}
+
+
+
+nav a:first-child{
+    background-color: #e19d48;
+    margin-left:0;
+    margin-right: 20%;
+    word-wrap: break-word;
+    border-color: #e19d48;
+}
+
+nav a:first-child:hover{
+    background-color: white;
+    color:#e19d48;
+    border-color: #e19d48; 
+}
+
+nav a:last-child {
+    background-color: #FFCD69;
+    margin-right:0;
+    margin-left:20%;
+    border-color: #FFCD69;
+    border-style: dashed;
+}
+
+nav a:last-child:hover{
+    background-color: white;
+    color:#FFCD69;
+    border-color: #FFCD69;
+}
+
+footer{
+        margin: 30px auto 80px auto;
+}

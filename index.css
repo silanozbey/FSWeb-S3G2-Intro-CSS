@@ -1,15 +1,20 @@
 *{
     font-family:"Roboto Mono";
-    font-size: 10px;
+    font-size: 12px;
     text-align:center;
 }
+
+body{ 
+    margin: 0 0 0 0;
+}
+
 h1{
     font-family: "Chelsea Market";
     font-size: 16px;
 
 }
 header{
-    margin-top: 30px;
+    margin: 30px auto 80px auto;
 }
 
 header nav a {
@@ -20,7 +25,18 @@ header nav a {
     margin: 10px 5%;
     text-align: center;
     text-decoration: none;
+    border-color: #5ED3EB;
+    border-style: solid;
 }
+
+header nav a:hover{
+    background-color: white;
+    font-weight: bold;
+    color:#5ED3EB;
+    border-color: #5ED3EB;
+    border-style: dashed;
+}
+
 .container {
     width: 750px;
     margin:10px auto;
@@ -29,34 +45,50 @@ header nav a {
 .bg-bej{
     background-color: #DDB9A3;
     color: white;
-
 }
 
-
-header nav {
+nav {
     margin:0 auto;
-    width: 70vw;
+    width: 80vw;
 }
-
-
-header nav a:last-child {
-    background-color: #FFCD69;
-    margin-right:0;
-    margin-left:20%;
-}
-
 
 header nav a:first-child{
     background-color: #FF764E;
     margin-left:0;
     margin-right: 20%;
-
+    word-wrap: break-word;
+    border-color: #FF764E;
 }
 
-.image-ortalama{
-    width: 45%;
-    display: inline-block;
+header nav a:first-child:hover{
+    background-color: white;
+    color:#FF764E;
+    border-color: #FF764E; 
 }
+
+header nav a:last-child {
+    background-color: #FFCD69;
+    margin-right:0;
+    margin-left:20%;
+    border-color: #FFCD69;
+    border-style: dashed;
+}
+
+header nav a:last-child:hover{
+    background-color: white;
+    color:#FFCD69;
+    border-color: #FFCD69;
+}
+
+.section-yazi{
+    margin-left: 100px;
+}
+
+.section1{
+    display: flex;
+    justify-content: flex-start;
+}
+
 .image-ortalama img{
     width:45%;
     height: 200px;
@@ -65,22 +97,24 @@ header nav a:first-child{
     border-radius: 50%;
 }
 section{
-margin-top: 50px;
+    line-height: 12px;
 }
 
 .ortabolum p{
-    width: 30%;
+    width: 25%;
     margin: auto auto;
 }
 
 .ortabolum img{
-    width: 25%;
+    width: 10%;
 }
 
 footer img{
-    width:750px;
-    height:100px;
-    margin:auto;
+    width: 100%;
+    height: 145px;
+    object-fit: cover;
+    object-position: top;
+    margin-bottom: 30px;
 }
 
 footer nav a {
@@ -91,21 +125,119 @@ footer nav a {
     margin: 10px 5%;
     text-align: center;
     text-decoration: none;
-    margin-bottom:15px;
+    margin-bottom: 30px;
+    border-color: #5ED3EB;
+    border-style: solid;
 }
-footer nav a:last-child {
-    background-color: #FFCD69;
-    margin-right:0;
-    margin-left:20%;
+
+footer nav a:hover{
+    background-color: white;
+    font-weight: bold;
+    color:#5ED3EB;
+    border-color: #5ED3EB;
+    border-style: dashed;
 }
 
 footer nav a:first-child{
     background-color: #FF764E;
     margin-left:0;
     margin-right: 20%;
+    width: 20px;
+    border-color: #FF764E;
+}
+
+footer nav a:first-child:hover{
+    background-color: white;
+    color:#FF764E;
+    border-color: #FF764E;
+}
+
+footer nav a:last-child {
+    background-color: #FFCD69;
+    margin-right:0;
+    margin-left:20%;
+    border-color: #FFCD69;
+}
+
+footer nav a:last-child:hover{
+    background-color: white;
+    color:#FFCD69;
+    border-color: #FFCD69;
 }
 
 footer{
     background-color: #F9E7DC;
-    margin-bottom:0;
+    margin: 0;
+    height:230px;
+}
+
+.bilgi{
+    padding:20px;
+    border-color: red;
+    background-color: #F9E7DC;
+    margin-bottom: 100px;
+    background-image: url("/assets/goreme.jpg");
+    color: white;
+    font-family: "Chelsea Market";
+   
+}
+
+.bilgi .container {
+    width: 750px;
+    margin:0 auto 0 180px;
+}
+
+.bilgi form label{
+  margin-left: 250px;
+  font-size: 15px;
+}
+
+.bilgi input[type="text"],
+select{
+    width: 40vw;
+    padding: 8px;
+    border-radius: 6px;
+    box-sizing: border-box;
+    margin: 15px auto 30px 200px;
+    box-shadow: gray 2px 2px;
+}
+
+textarea {
+  width: 50vw;
+  padding: 8px;
+  border-radius: 6px;
+  box-sizing: border-box;
+  margin: 15px auto 30px 120px;
+  box-shadow: gray 2px 2px;
+}
+
+.bilgi input[type="submit"]{
+    background-color: #013050;
+    border-radius: 10px;
+    color: #ffdcab;
+    width:90px;
+    height: 35px;
+    font-family:"Roboto Mono";
+    font-size: 12px;
+    margin-left: 200px;
+}
+
+.bilgi input[type="submit"]:hover{
+    background-color: #5c9cc2;
+    border-radius: 10px;
+    color: white;
+   font-weight: 1000;
+}
+
+.planla{
+    font-family: "Roboto Mono";
+    font-size: 15px;
+}
+
+.planla option{
+    font-size: 15px;
+}
+
+.planla footer nav a{
+    font-size: 15px;
 }

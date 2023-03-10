@@ -1,0 +1,64 @@
+
+<!DOCTYPE html>
+<html lang="tr">
+
+<style>
+    input[type="text"]:invalid{
+        outline: 2px solid red;;
+    }
+ 
+    input[type="text"]:valid{
+        outline: 2px solid green;;
+    }
+    
+</style>
+
+<head>
+    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Roboto+Mono&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <a href="index.html">Ana Sayfa</a>
+
+            <a href="planla.html">Gezinizi Planlayın</a>
+
+            <a href="karsilastirma.html">Karşılaştırın</a>
+        </nav>
+    </header>
+
+    <section class="bilgi" >
+
+        <h1 style="margin:auto auto 60px 25px; font-size: 25px;" >SİZE ULASALIM</h1>
+
+        <div class="container">
+                <form >
+
+                    <label >Adınız:</label>
+                    <input type="text"placeholder="İsminizi Giriniz" minlength="3" required>
+
+                    <label>Telefon Numaranız:</label>
+                    <input type="text" pattern="\d*"  maxlength="15" placeholder="+90(5XX) XXX XX XX" required>
+
+
+                    <label >Ne Hakkında?</label>
+                    <select>
+                        <option>---Seçiniz---</option>
+                        <option value="1">Fiyat Bilgisi</option>
+                        <option value="2">Randevu Alma</option>
+                        <option value="3">Diğer</option>
+                    </select>
+
+                    <label>Siz Yazın Biz Ulaşalım</label>
+                    <textarea style="height:150px"></textarea>
+
+                    <input type="submit" value="Gönder" >
+                </form>
+        </div>
+    </section>
+</body>
+
+</html>
